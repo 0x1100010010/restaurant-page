@@ -1,1 +1,3 @@
-console.log("Hi from webpack")
+import header from './header'
+
+header()
