@@ -1,19 +1,12 @@
 import codefactory from './codefactory';
 
 function header (){
-  
-  // <div class="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
-
-  // let nav = document.createElement("div");
-  // nav.className = 'text-gray-600 body-font'
-  // nav.appendChild = document.createElement("div");
-  // document.getElementById('content').appendChild(nav)
-
-  // let nav = document.createElement("nav");
-  // nav.className = 'relative flex items-center justify-between sm:h-10 lg:justify-start'
-  // nav.innerText = 'Nav'
-  // document.getElementById('content').appendChild(nav)
-  codefactory('nav', 'relative flex items-center justify-between sm:h-10 lg:justify-start', 'Navigation Bar', 'content')
+  // codefactory( _id, _type, _class, _content, _parent_id )
+  codefactory('header', 'header', 'text-gray-600 body-font', '', 'content');
+  codefactory('headercontainer', 'div', 'container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center', '', 'header');
+  codefactory( '', 'a', 'title-font cursor-pointer font-medium items-center text-gray-900', 'Le-Hotel', 'headercontainer' );
+  codefactory('headerlinks', 'nav', 'md:ml-auto flex flex-wrap items-center text-base justify-center', '', 'headercontainer');
+  ['1', '2', '3'].forEach ( el => codefactory('asasdasd', 'a', 'mr-5 hover:text-gray-900 cursor-pointer', el, 'headercontainer')  );
 }
 
 export default header;
