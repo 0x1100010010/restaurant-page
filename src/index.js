@@ -1,5 +1,4 @@
-import body from './body'
 import header from './header'
+import home from './home'
 
 header()
-body()
