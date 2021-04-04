@@ -1,9 +1,9 @@
-import contact from './contact'
-import home from './home'
-import menu from './menu'
+import contact from './contact';
+import home from './home';
+import menu from './menu';
 
 export default function tab() {
-  home()
-  menu()
-  contact()
+  home();
+  menu();
+  contact();
 }

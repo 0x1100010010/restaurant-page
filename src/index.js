@@ -1,5 +1,5 @@
-import header from './header'
-import home from './home'
+import header from './header';
+import home from './home';
 
-header()
-home()
+header();
+home();
