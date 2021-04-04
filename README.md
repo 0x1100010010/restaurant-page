@@ -40,7 +40,7 @@ There you can see updated information about the restaurant.
 
 ## Live Demo
 
-[Live Demo Link](https://zappat0n.github.io/restaurant_page/)
+[Live Demo Link](https://bashforger.github.io/restaurant-page/dist/index.html)
 
 ## Getting Started
 
