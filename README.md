@@ -31,6 +31,7 @@ There you can see updated information about the restaurant.
 ## Built With
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [TailwindCSS](https://tailwindcss.com/)
 * [SASS(SCSS)](https://sass-lang.com/)
 * [Styleint](https://stylelint.io/)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
@@ -59,9 +60,9 @@ e.g. $ `git clone https://github.com/bashforger/restaurant-page.git`
 
 ## Author
 
-👤 **Angel Barros**
+👤 **Muhammad Adeel Danish**
 
-- GitHub: [@Zappat0n](https://github.com/bashforger)
+- GitHub: [@bashforger](https://github.com/bashforger)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-adeel-danish/)
 - Twitter [@bashforge](https://twitter.com/bashForge)
 
