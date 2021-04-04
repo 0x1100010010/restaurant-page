@@ -2,8 +2,8 @@ import {codefactory, dropLast} from './codefactory'
 
 export default function contact() {
   dropLast()
-  codefactory('section', {'class': 'text-gray-600 body-font', 'id': 'menu' }, '', 'content');
-  codefactory('div', {'class': 'container px-5 py-5 mx-auto max-w-lg', 'id': 'menu-container' }, '', 'menu');
+  codefactory('section', {'class': 'text-gray-600 body-font', 'id': 'contact' }, '', 'content');
+  codefactory('div', {'class': 'container px-5 py-5 mx-auto max-w-lg', 'id': 'menu-container' }, '', 'contact');
   codefactory('h1', {'class': 'title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900' }, 'Contect', 'menu-container');
   codefactory('p', {'class': 'leading-relaxed mb-5 text-gray-600' }, 'Post-ironic portland shabby chic echo park, banjo fashion axe', 'menu-container');
   codefactory('div', { 'class': 'relative mb-4', 'id': 'email-container'}, '', 'menu-container')
