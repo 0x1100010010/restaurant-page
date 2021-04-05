@@ -6,7 +6,10 @@
   "author": "bashforger <bash.forger@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --progress --watch",
+    "start": "webpack-dev-server --mode development --open"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^2.0.0",
