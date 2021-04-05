@@ -56,7 +56,8 @@ To get a local copy up and running follow these simple example steps.
 e.g. $ `git clone https://github.com/bashforger/restaurant-page.git`
 7. Press Enter. Your local copy will be created.
 8. Run `npm install`. If you do not have `npm` installed you can get it from [here](https://www.npmjs.com/).
-9. Run `npm start` to lauch a local web server and open a tab in you Browser with the page.
+9. Run `npm run build` to build production version of project.
+10. Open `index.html` in `dist` directory for production version or Run `npm start` to run development version
 
 ## Author
 
