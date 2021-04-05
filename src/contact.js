@@ -1,6 +1,6 @@
 import { codefactory, dropLast } from './codefactory';
 
-export default function contact() {
+const contact = () => {
   dropLast();
   codefactory('section', { class: 'text-gray-600 body-font', id: 'contact' }, '', 'content');
   codefactory('div', { class: 'container px-5 py-5 mx-auto max-w-lg', id: 'menu-container' }, '', 'contact');
@@ -14,4 +14,6 @@ export default function contact() {
   codefactory('textarea', { type: 'message', id: 'message', class: 'w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out' }, '', 'message-container');
   codefactory('button', { class: 'text-white w-full bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg' }, 'Submit', 'menu-container');
   codefactory('p', { class: 'text-xs text-gray-500 mt-3' }, 'Chicharrones blog helvetica normcore iceland tousled brook viral artisan.', 'menu-container');
-}
+};
+
+export default contact;

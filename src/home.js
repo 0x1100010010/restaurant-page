@@ -1,6 +1,6 @@
 import { codefactory, dropLast } from './codefactory';
 
-export default function home() {
+const home = () => {
   dropLast();
   codefactory('section', { class: 'text-gray-600 body-font', id: 'home' }, '', 'content');
   codefactory('div', { class: 'container mx-auto flex px-5 py-24 md:flex-row flex-col items-center', id: 'home-container' }, '', 'home');
@@ -12,4 +12,6 @@ export default function home() {
   codefactory('button', { class: 'ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg' }, 'Button', 'action-buttons');
   codefactory('div', { class: 'lg:max-w-lg lg:w-full md:w-1/2 w-5/6', id: 'img-container' }, '', 'home-container');
   codefactory('img', { class: 'object-cover object-center rounded', alt: 'hero', src: 'https://dummyimage.com/720x600' }, '', 'img-container');
-}
+};
+
+export default home;

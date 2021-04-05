@@ -1,6 +1,6 @@
 import { codefactory, dropLast } from './codefactory';
 
-export default function menu() {
+const menu = () => {
   dropLast();
   codefactory('section', { class: 'text-gray-600 body-font', id: 'menu' }, '', 'content');
   codefactory('section', { class: 'container px-5 py-5 mx-auto', id: 'menu-container' }, '', 'menu');
@@ -9,4 +9,6 @@ export default function menu() {
   for (let i = 1; i < 7; i += 1) {
     codefactory('li', { class: 'list-disc' }, `Menu item ${i}`, 'menu-ul');
   }
-}
+};
+
+export default menu;
